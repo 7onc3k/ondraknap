@@ -1,0 +1,51 @@
+{
+  "src/app/globals.css": {
+    "type": "CSS file",
+    "description": "A CSS file configured with Tailwind CSS for styling, including base, components, and utilities layers, and defines custom properties for foreground color.",
+    "exports": [],
+    "imports": [],
+    "functions": [],
+    "hooks": [],
+    "attributes": [
+      "Tailwind CSS configuration",
+      "Custom properties"
+    ],
+    "category": "Styling"
+  },
+  "src/app/page.tsx": {
+    "type": "JavaScript/React Component",
+    "description": "A Next.js page component for the home route, likely displaying main content including images.",
+    "exports": [
+      "Home"
+    ],
+    "imports": [
+      "Image from 'next/image'"
+    ],
+    "functions": [
+      "Home - The main functional component rendering the home page content."
+    ],
+    "hooks": [],
+    "attributes": [
+      "Uses Next.js Image component for optimized image loading."
+    ],
+    "category": "UI Component"
+  },
+  "src/app/layout.tsx": {
+    "type": "JavaScript/TypeScript",
+    "description": "This file appears to be a Next.js page or component file that sets up global styles and imports necessary fonts and metadata for the application.",
+    "exports": [],
+    "imports": [
+      "Metadata from 'next'",
+      "Inter from 'next/font/google'",
+      "globals.css"
+    ],
+    "functions": [],
+    "hooks": [],
+    "attributes": [
+      "Global styles setup",
+      "Font import",
+      "Metadata configuration"
+    ],
+    "category": "Next.js Configuration"
+  }
+}
